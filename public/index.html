@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chat Rooms</title>
+    <style>
+      /* Centered form styles */
+      .centered-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .centered-form__box {
+        background-color: #f0f0f0;
+        padding: 20px;
+        border-radius: 5px;
+      }
+
+      .centered-form__box h1 {
+        text-align: center; /* Center the text */
+      }
+    </style>
+<!--     <link rel="icon" href="/img/favicon.png" /> -->
+    <link rel="stylesheet" href="/css/style.min.css" />
+  </head>
+  <body>
+    <div class="centered-form">
+      <div class="centered-form__box">
+        <h1>Join</h1>
+        <form action="/chat.html">
+          <label>Display name</label>
+          <input
+            type="text"
+            name="username"
+            placeholder="Display name"
+            required
+          />
+          <label>Room</label>
+          <input type="text" name="room" placeholder="Room" required />
+          <button>Join</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
