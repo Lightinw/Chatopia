@@ -8,7 +8,7 @@
     "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Abhishek",
+  "author": "Aniket Wani",
   "license": "ISC",
   "dependencies": {
     "bad-words": "^3.0.0",
